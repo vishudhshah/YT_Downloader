@@ -10,7 +10,7 @@ ydl_opts = {
     'outtmpl': f'{path}/%(title)s.%(ext)s',
     'merge_output_format': 'mp4',
     'cookiesfrombrowser': ('chrome',),
-    'js_runtimes': {'node': {'path': '/opt/homebrew/bin/node'}},
+    'js_runtimes': {'node': {}},
     'remote_components': ['ejs:github'],
     'writesubtitles': True,
     'writeautomaticsub': True,
