@@ -1,0 +1,8 @@
+*.mp4
+*.webm
+*.mkv
+*.m4a
+*.vtt
+*.srt
+.DS_Store
+__pycache__/
